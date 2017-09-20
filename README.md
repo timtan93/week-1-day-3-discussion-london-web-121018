@@ -84,7 +84,7 @@ frederick.species
 ```ruby
 class Animal
   
-  def species=(species)
+  def initialize(species)
     @species = species
   end
 
