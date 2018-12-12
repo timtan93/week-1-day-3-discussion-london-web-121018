@@ -1,3 +1,16 @@
+#4
+class Animal
+
+  def species
+    @my_species = "cat"
+  end
+
+  def say_species
+    puts "Hi! I'm a #{@my_species}"
+  end
+end
+
+#5
 class Animal
 
   def initialize(species)
@@ -5,7 +18,7 @@ class Animal
   end
 
   def species
-    @nspecies
+    @species
   end
 
 
